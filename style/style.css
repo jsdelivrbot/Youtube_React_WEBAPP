@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:700');
+
+.main-header{
+  font-family: Arvo;
+  color: rgb(252, 13, 28);
+}
+
+.main-header-black {
+  color: #000;
+}
+
+.search-bar-input {
+  padding: 2px 5px;
+}
+
 .search-bar {
   margin: 20px;
   text-align: center;

@@ -10,7 +10,10 @@ export default class SearchBar extends Component {
   render(){
     return (
       <div className="search-bar">
-        <input 
+        <h1 className="main-header">&lt;Ari&gt;<span className="main-header-black">Tube</span></h1>
+        <input
+          className="search-bar-input"
+          placeholder="Search..." 
           value={this.state.term} 
           onChange={event => this.onInputChange(event.target.value)}
         />
